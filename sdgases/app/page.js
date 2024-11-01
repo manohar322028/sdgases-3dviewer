@@ -27,7 +27,7 @@ export default function Home() {
 
         <div className="controls-container mt-4 space-y-2 md:space-y-4 flex flex-col items-center justify-center">
           <ToggleSwitch
-            label="Background Image"
+            label="Background Environment"
             checked={showBackground}
             onChange={() => setShowBackground(!showBackground)}
             className="mb-2"
